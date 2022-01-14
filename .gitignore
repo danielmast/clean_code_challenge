@@ -1,0 +1,22 @@
+## The .gitignore file specifies things that git should ignore.
+.git/
+.mypy_cache/
+
+data/*
+!data/key_tag_logs.csv
+!data/lunch_recipes.csv
+!data/dishwasher_log.csv
+
+requirements.answers.txt
+pyproject.toml
+
+# Python / PyCharm
+__pycache__/
+.idea
+
+#vscode dev environment
+.vscode/
+.env
+
+
+
